@@ -1,0 +1,7 @@
+When you start learning any programming language, you first try out a few statements of code in a read-evaluate-print loop (REPL).
+
+The idea of a program is to do something or carry out a task. To have the program do something, you'll need to add the statements or instructions to perform the task. 
+
+A console is a command-line application that lets you interact with the operating system.
+
+To get anywhere with coding, you need to understand that you're operating on data. As your program is working on data, you might need to remember a certain value throughout the program's execution. For that, you use variables.
