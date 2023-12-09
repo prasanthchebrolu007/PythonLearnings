@@ -1,0 +1,12 @@
+pip freeze - to list the packages that are installed in your virtual environment.
+
+
+Install a Package
+To install a specific version, use == between the package name and the version number. Here's an example command:  pip install python-dateutil==1.4
+
+
+Upgrade a package
+Packages change over time, as previously stated. You can upgrade to the latest package without specifying what the exact version number is. Use this command:   pip install <name of package> --upgrade
+
+Uninstall a Package
+Sometimes, you might realize that you no longer need a certain Python package and you want to remove it. For such a case, you can use pip uninstall:    pip uninstall python-dateutil
