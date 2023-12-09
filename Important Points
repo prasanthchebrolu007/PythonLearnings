@@ -5,3 +5,5 @@ The idea of a program is to do something or carry out a task. To have the progra
 A console is a command-line application that lets you interact with the operating system.
 
 To get anywhere with coding, you need to understand that you're operating on data. As your program is working on data, you might need to remember a certain value throughout the program's execution. For that, you use variables.
+
+By using a virtual environment, you isolate yourself and your Python project from the rest of the machine.Within the virtual environment, you bring your own Python runtime and libraries that are installed only within the virtual environment. A benefit to using a virtual environment is that you don't affect other Python projects running on the same machine that needs libraries and Python runtimes of a version that's not compatible with what your project needs.
