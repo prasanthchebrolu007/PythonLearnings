@@ -7,3 +7,26 @@ A console is a command-line application that lets you interact with the operatin
 To get anywhere with coding, you need to understand that you're operating on data. As your program is working on data, you might need to remember a certain value throughout the program's execution. For that, you use variables.
 
 By using a virtual environment, you isolate yourself and your Python project from the rest of the machine.Within the virtual environment, you bring your own Python runtime and libraries that are installed only within the virtual environment. A benefit to using a virtual environment is that you don't affect other Python projects running on the same machine that needs libraries and Python runtimes of a version that's not compatible with what your project needs.
+
+
+STRINGS:
+
+About using quotation marks
+You can enclose Python strings in single, double, or triple quotation marks. Although you can use them interchangeably, it's best to use one type consistently within a project. For example, the following string uses double quotation marks:
+moon_radius = "The Moon has a radius of 1,080 miles."
+
+However, when a string contains words, numbers, or special characters (a substring) that are also enclosed in quotation marks, you should use a different style. For example, if a substring uses double quotation marks, enclose the entire string in single quotation marks, as shown here:
+'The "near side" is the part of the Moon that faces the Earth.'
+
+Similarly, if there are single quotation marks (or an apostrophe, as in Moon's in the following example) anywhere within the string, enclose the entire string in double quotation marks:
+"We only see about 60% of the Moon's surface."
+
+Failure to alternate single and double quotation marks can cause the Python interpreter to raise a syntax error, as shown here:
+'We only see about 60% of the Moon's surface.'
+  File "<stdin>", line 1
+    'We only see about 60% of the Moon's surface.'
+                                       ^
+SyntaxError: invalid syntax
+
+When the text has a combination of single and double quotation marks, you can use triple quotation marks to prevent problems with the interpreter:
+"""We only see about 60% of the Moon's surface, this is known as the "near side"."""
